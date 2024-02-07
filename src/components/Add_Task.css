@@ -1,0 +1,40 @@
+.Add_Task{
+    width: 80%;
+    margin: 0px 10%;
+    float: left;
+    height: 10vh;
+    display: grid;
+    align-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    box-sizing: border-box;
+}
+
+.Add_Task input{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 5vh;
+    text-align: center;
+    border: none;
+    border: 1px solid black;
+}
+
+.Add_Task input:focus{
+    outline: none;
+    border: 1px solid grey;
+}
+
+.Add_Task button{
+    height: 5vh;
+    padding: 5px;
+    border: none;
+    color: whitesmoke;
+    background-color: #0D1117;
+    transition: all ease 0.5s;
+}
+
+.Add_Task button:hover{
+    opacity: 0.7;
+    color: rgb(254, 74, 74);
+}

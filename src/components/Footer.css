@@ -1,0 +1,23 @@
+footer{
+    width: 100%;
+    float: left;
+    height: 5vh;
+    text-align: center;
+    background-color: #0D1117;
+}
+
+footer span{
+    width: 100%;
+    float: left;
+    height: 1vh;
+    background: linear-gradient(to right,red , blue);
+}
+
+footer small{
+    float: left;
+    line-height: 4vh;
+    height: 4vh;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+}
